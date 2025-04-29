@@ -1,6 +1,26 @@
+# Obsidian 插件项目 .gitignore
+
+# 依赖
 node_modules/
-   dist/
-   *.js
-   .DS_Store
-   .env
-   
+
+# 构建输出
+dist/
+*.js
+*.d.ts
+
+# 环境
+.env
+*.local
+npm-debug.log*
+
+# 系统
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+
+# 测试
+__tests__/coverage/
+*.tmp
