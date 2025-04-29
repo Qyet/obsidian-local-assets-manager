@@ -1,0 +1,11 @@
+{
+	"id": "local-assets-manager",
+	"name": "Local Assets Manager",
+	"version": "0.1.0",
+	"minAppVersion": "0.15.0",
+	"description": "将笔记中的图片、视频下载到本地进行永久化储存和管理的插件",
+	"author": "Qyet",
+	"authorUrl": "",
+	"isDesktopOnly": false,
+	"keywords": ["local image", "media downloader", "assets manager", "file manager", "local storage", "resource manager"]
+} 

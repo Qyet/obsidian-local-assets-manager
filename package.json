@@ -1,0 +1,32 @@
+{
+  "name": "obsidian-local-assets-manager",
+  "version": "0.1.0",
+  "description": "将笔记中的图片、视频下载到本地进行永久化储存和管理的插件",
+  "main": "main.js",
+  "scripts": {
+    "dev": "node esbuild.config.mjs",
+    "build": "tsc --noEmit --skipLibCheck && node esbuild.config.mjs production",
+    "version": "node version-bump.mjs && git add manifest.json versions.json",
+    "version-check": "ts-node scripts/version-check.ts"
+  },
+  "keywords": [
+    "obsidian",
+    "plugin",
+    "assets-manager",
+    "image-downloader"
+  ],
+  "author": "Qyet",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^22.14.1",
+    "@typescript-eslint/eslint-plugin": "^5.2.0",
+    "@typescript-eslint/parser": "^5.2.0",
+    "builtin-modules": "^3.2.0",
+    "esbuild": "0.13.12",
+    "obsidian": "^1.4.11",
+    "ts-node": "^10.9.2",
+    "tslib": "2.3.1",
+    "typescript": "^5.8.3"
+  }
+}
+ 
